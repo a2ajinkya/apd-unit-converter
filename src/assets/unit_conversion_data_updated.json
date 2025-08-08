@@ -1,0 +1,552 @@
+{
+    "length": {
+        "base_unit": "meter",
+        "units": {
+            "mm": {
+                "name": "millimeter",
+                "factor": 0.001
+            },
+            "cm": {
+                "name": "centimeter",
+                "factor": 0.01
+            },
+            "dm": {
+                "name": "decimeter",
+                "factor": 0.1
+            },
+            "m": {
+                "name": "meter",
+                "factor": 1.0
+            },
+            "dam": {
+                "name": "decameter",
+                "factor": 10.0
+            },
+            "hm": {
+                "name": "hectometer",
+                "factor": 100.0
+            },
+            "km": {
+                "name": "kilometer",
+                "factor": 1000.0
+            },
+            "micron": {
+                "name": "micron",
+                "factor": 1e-06
+            },
+            "in": {
+                "name": "inch",
+                "factor": 0.0254
+            },
+            "ft": {
+                "name": "foot",
+                "factor": 0.3048
+            },
+            "yd": {
+                "name": "yard",
+                "factor": 0.9144
+            },
+            "chain": {
+                "name": "chain",
+                "factor": 20.1168
+            },
+            "furlong": {
+                "name": "furlong",
+                "factor": 201.168
+            },
+            "mile": {
+                "name": "mile",
+                "factor": 1609.344
+            },
+            "nautical_mile": {
+                "name": "nautical mile",
+                "factor": 1852.0
+            }
+        }
+    },
+    "area": {
+        "base_unit": "square_meter",
+        "units": {
+            "mm2": {
+                "name": "square millimeter",
+                "factor": 1e-06
+            },
+            "cm2": {
+                "name": "square centimeter",
+                "factor": 0.0001
+            },
+            "dm2": {
+                "name": "square decimeter",
+                "factor": 0.01
+            },
+            "m2": {
+                "name": "square meter",
+                "factor": 1.0
+            },
+            "are": {
+                "name": "are",
+                "factor": 100.0
+            },
+            "ha": {
+                "name": "hectare",
+                "factor": 10000.0
+            },
+            "km2": {
+                "name": "square kilometer",
+                "factor": 1000000.0
+            },
+            "sq_in": {
+                "name": "square inch",
+                "factor": 0.00064516
+            },
+            "sq_ft": {
+                "name": "square foot",
+                "factor": 0.092903
+            },
+            "sq_yd": {
+                "name": "square yard",
+                "factor": 0.836127
+            },
+            "rood": {
+                "name": "rood",
+                "factor": 1011.714
+            },
+            "acre": {
+                "name": "acre",
+                "factor": 4046.856
+            },
+            "sq_mile": {
+                "name": "square mile",
+                "factor": 2589988.11
+            }
+        }
+    },
+    "volume": {
+        "base_unit": "cubic_meter",
+        "units": {
+            "mm3": {
+                "name": "cubic millimeter",
+                "factor": 1e-09
+            },
+            "cm3": {
+                "name": "cubic centimeter",
+                "factor": 1e-06
+            },
+            "dm3": {
+                "name": "cubic decimeter",
+                "factor": 0.001
+            },
+            "m3": {
+                "name": "cubic meter",
+                "factor": 1.0
+            },
+            "l": {
+                "name": "liter",
+                "factor": 0.001
+            },
+            "ml": {
+                "name": "milliliter",
+                "factor": 1e-06
+            },
+            "cu_in": {
+                "name": "cubic inch",
+                "factor": 1.6387e-05
+            },
+            "cu_ft": {
+                "name": "cubic foot",
+                "factor": 0.028317
+            },
+            "cu_yd": {
+                "name": "cubic yard",
+                "factor": 0.764555
+            }
+        }
+    },
+    "capacity": {
+        "base_unit": "liter",
+        "units": {
+            "ml": {
+                "name": "milliliter",
+                "factor": 0.001
+            },
+            "cl": {
+                "name": "centiliter",
+                "factor": 0.01
+            },
+            "dl": {
+                "name": "deciliter",
+                "factor": 0.1
+            },
+            "l": {
+                "name": "liter",
+                "factor": 1.0
+            },
+            "dal": {
+                "name": "decaliter",
+                "factor": 10.0
+            },
+            "hl": {
+                "name": "hectoliter",
+                "factor": 100.0
+            },
+            "kl": {
+                "name": "kiloliter",
+                "factor": 1000.0
+            },
+            "minim": {
+                "name": "minim",
+                "factor": 5.9194e-05
+            },
+            "fl_dr": {
+                "name": "fluid drachm",
+                "factor": 0.000473551
+            },
+            "fl_oz": {
+                "name": "fluid ounce",
+                "factor": 0.002367755
+            },
+            "gill": {
+                "name": "gill",
+                "factor": 0.01183878
+            },
+            "pint": {
+                "name": "pint",
+                "factor": 0.0473551
+            },
+            "quart": {
+                "name": "quart",
+                "factor": 0.0947102
+            },
+            "gallon": {
+                "name": "gallon",
+                "factor": 0.37884081
+            },
+            "peck": {
+                "name": "peck",
+                "factor": 0.75768162
+            },
+            "bushel": {
+                "name": "bushel",
+                "factor": 3.03072649
+            }
+        }
+    },
+    "flow": {
+        "base_unit": "cubic_meter_per_second",
+        "units": {
+            "m3/s": {
+                "name": "cubic meter per second",
+                "factor": 1.0
+            },
+            "m3/min": {
+                "name": "cubic meter per minute",
+                "factor": 0.0166667
+            },
+            "m3/day": {
+                "name": "cubic meter per day",
+                "factor": 1.1574074074074e-05
+            },
+            "l/s": {
+                "name": "liter per second",
+                "factor": 0.001
+            },
+            "l/min": {
+                "name": "liter per minute",
+                "factor": 1.6666666666667e-05
+            },
+            "l/day": {
+                "name": "liter per day",
+                "factor": 1.1574074074074e-08
+            },
+            "mld": {
+                "name": "million liters per day",
+                "factor": 0.011574074074074
+            },
+            "kld": {
+                "name": "kilo liters per day",
+                "factor": 1.1574074074074e-05
+            }
+        }
+    },
+    "weight": {
+        "base_unit": "kilogram",
+        "units": {
+            "mg": {
+                "name": "milligram",
+                "factor": 1e-06
+            },
+            "cg": {
+                "name": "centigram",
+                "factor": 1e-05
+            },
+            "dg": {
+                "name": "decigram",
+                "factor": 0.0001
+            },
+            "g": {
+                "name": "gram",
+                "factor": 0.001
+            },
+            "dag": {
+                "name": "decagram",
+                "factor": 0.01
+            },
+            "hg": {
+                "name": "hectogram",
+                "factor": 0.1
+            },
+            "kg": {
+                "name": "kilogram",
+                "factor": 1.0
+            },
+            "t": {
+                "name": "metric ton",
+                "factor": 1000.0
+            },
+            "gr": {
+                "name": "grain",
+                "factor": 6.479891e-05
+            },
+            "dr": {
+                "name": "dram",
+                "factor": 0.001771845
+            },
+            "oz": {
+                "name": "ounce",
+                "factor": 0.02834952
+            },
+            "lb": {
+                "name": "pound",
+                "factor": 0.4535924
+            },
+            "st": {
+                "name": "stone",
+                "factor": 6.350293
+            },
+            "qr": {
+                "name": "quarter",
+                "factor": 12.70059
+            },
+            "cwt": {
+                "name": "hundredweight",
+                "factor": 50.80235
+            },
+            "ton": {
+                "name": "ton",
+                "factor": 1016.047
+            }
+        }
+    },
+    "temperature": {
+        "base_unit": "celsius",
+        "units": {
+            "c": {
+                "name": "celsius",
+                "factor": 1.0
+            },
+            "f": {
+                "name": "fahrenheit",
+                "factor": 1.0
+            },
+            "k": {
+                "name": "kelvin",
+                "factor": 1.0
+            },
+            "r": {
+                "name": "rankine",
+                "factor": 1.0
+            }
+        }
+    },
+    "angle": {
+        "base_unit": "degree",
+        "units": {
+            "deg": {
+                "name": "degree",
+                "factor": 1.0
+            },
+            "rad": {
+                "name": "radian",
+                "factor": 57.2958
+            },
+            "grad": {
+                "name": "gradian",
+                "factor": 0.9
+            },
+            "turn": {
+                "name": "turn",
+                "factor": 360.0
+            }
+        }
+    },
+    "time": {
+        "base_unit": "second",
+        "units": {
+            "ns": {
+                "name": "nanosecond",
+                "factor": 1e-09
+            },
+            "μs": {
+                "name": "microsecond",
+                "factor": 1e-06
+            },
+            "ms": {
+                "name": "millisecond",
+                "factor": 0.001
+            },
+            "s": {
+                "name": "second",
+                "factor": 1.0
+            },
+            "min": {
+                "name": "minute",
+                "factor": 60.0
+            },
+            "h": {
+                "name": "hour",
+                "factor": 3600.0
+            },
+            "day": {
+                "name": "day",
+                "factor": 86400.0
+            },
+            "week": {
+                "name": "week",
+                "factor": 604800.0
+            },
+            "month": {
+                "name": "month",
+                "factor": 2629746.0
+            },
+            "year": {
+                "name": "year",
+                "factor": 31556952.0
+            }
+        }
+    },
+    "speed": {
+        "base_unit": "meter_per_second",
+        "units": {
+            "m/s": {
+                "name": "meter per second",
+                "factor": 1.0
+            },
+            "km/h": {
+                "name": "kilometer per hour",
+                "factor": 0.277778
+            },
+            "mph": {
+                "name": "mile per hour",
+                "factor": 0.44704
+            },
+            "ft/s": {
+                "name": "foot per second",
+                "factor": 0.3048
+            },
+            "knot": {
+                "name": "knot",
+                "factor": 0.514444
+            }
+        }
+    },
+    "pressure": {
+        "base_unit": "pascal",
+        "units": {
+            "pa": {
+                "name": "pascal",
+                "factor": 1.0
+            },
+            "kpa": {
+                "name": "kilopascal",
+                "factor": 1000.0
+            },
+            "mpa": {
+                "name": "megapascal",
+                "factor": 1000000.0
+            },
+            "bar": {
+                "name": "bar",
+                "factor": 100000.0
+            },
+            "atm": {
+                "name": "atmosphere",
+                "factor": 101325.0
+            },
+            "psi": {
+                "name": "pound per square inch",
+                "factor": 6894.76
+            },
+            "torr": {
+                "name": "torr",
+                "factor": 133.322
+            },
+            "mmhg": {
+                "name": "millimeter of mercury",
+                "factor": 133.322
+            }
+        }
+    },
+    "energy": {
+        "base_unit": "joule",
+        "units": {
+            "j": {
+                "name": "joule",
+                "factor": 1.0
+            },
+            "kj": {
+                "name": "kilojoule",
+                "factor": 1000.0
+            },
+            "mj": {
+                "name": "megajoule",
+                "factor": 1000000.0
+            },
+            "cal": {
+                "name": "calorie",
+                "factor": 4.184
+            },
+            "kcal": {
+                "name": "kilocalorie",
+                "factor": 4184.0
+            },
+            "btu": {
+                "name": "british thermal unit",
+                "factor": 1055.06
+            },
+            "kwh": {
+                "name": "kilowatt hour",
+                "factor": 3600000.0
+            },
+            "wh": {
+                "name": "watt hour",
+                "factor": 3600.0
+            }
+        }
+    },
+    "power": {
+        "base_unit": "watt",
+        "units": {
+            "w": {
+                "name": "watt",
+                "factor": 1.0
+            },
+            "kw": {
+                "name": "kilowatt",
+                "factor": 1000.0
+            },
+            "mw": {
+                "name": "megawatt",
+                "factor": 1000000.0
+            },
+            "hp": {
+                "name": "horsepower",
+                "factor": 745.7
+            },
+            "ps": {
+                "name": "metric horsepower",
+                "factor": 735.5
+            }
+        }
+    }
+}
+
